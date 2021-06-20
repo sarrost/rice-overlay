@@ -30,4 +30,3 @@ pkg_postinst() {
 	elog "runtime."
 	elog
 }
-#test
