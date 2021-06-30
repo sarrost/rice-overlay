@@ -31,10 +31,10 @@ src_prepare() {
 
 	sed -i \
 		-e "s/ -Os / /" \
-		# Remove redundant -I's
+		`# Remove redundant -I's` \
 		-e 's/-I$(FREETYPEINC)/$(FREETYPEINC)/' \
 		-e 's/-I$(X11INC)/$(X11INC)/' \
-		# Modify flags to use make.conf flags
+		`# Modify flags to use make.conf flags` \
 		-e "/^\(LDFLAGS\|CFLAGS\|CPPFLAGS\)/{s| = | += |g;s|-s ||g}" \
 		config.mk || die
 }
