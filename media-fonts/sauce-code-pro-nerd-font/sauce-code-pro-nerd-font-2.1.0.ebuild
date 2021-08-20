@@ -1,5 +1,5 @@
-# Copyright 1999-2021 Gentoo Authors
-# Distributed under the terms of the GNU General Public License v2
+# © 2021 Herbert Magaya <herbert at magaya dot co dot za>
+# Distributed under the terms of the MIT License
 
 EAPI=7
 
