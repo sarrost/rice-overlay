@@ -11,7 +11,7 @@ EGIT_REPO_URI="https://github.com/sarrost/st"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS=""
-#S="$S/src"
+S="$S/src"
 
 RDEPEND="
 	>=sys-libs/ncurses-6.0:0=
